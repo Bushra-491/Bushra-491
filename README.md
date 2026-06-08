@@ -59,5 +59,4 @@ Python automation agent that fills multiple Google Forms from a CSV file automat
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Bushra%20Saleem-blue)](https://www.linkedin.com/in/bushra-saleem-89ab03371/)
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-BushraSaleem491-yellow)](https://huggingface.co/BushraSaleem491)
-- ⚡ Fun fact: ...
--->
+
