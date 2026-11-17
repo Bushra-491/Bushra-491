@@ -21,7 +21,7 @@ End-to-end deep learning system to detect AI-generated audio in **Urdu and Engli
 
 ---
 
-### 🤖 AutoForm-AI — Intelligent Form Filling Agent
+### 🤖 AutoFormFill-AI — Form Filling Agent
 Python automation agent that fills multiple Google Forms from a CSV file automatically.
 - Fuzzy field matching across different form wordings
 - Persistent JSON mappings — learns and remembers
@@ -29,7 +29,7 @@ Python automation agent that fills multiple Google Forms from a CSV file automat
 - Multi-form, multi-applicant bulk processing
 - Auto-submit with interactive fallback
 
-[View Repo](https://github.com/Bushra-491/AutoForm-AI)
+[View Repo](https://github.com/Bushra-491/AutoFormFill-AI)
 
 ---
 
