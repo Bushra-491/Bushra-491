@@ -1,62 +1,53 @@
-# Hi, I'm Bushra Saleem 👋
+Hi, I'm Bushra Saleem 👋
 
-I'm a Python and AI developer from Pakistan with a BS in Information Technology (CGPA 3.67) from the University of Gujrat.
+I'm a Python developer from Lahore, Pakistan, building LLM applications. I have a BS in Information Technology (University of Gujrat, 2025, CGPA 3.67).
 
-I build real, deployed AI systems — not just notebooks.
+My way of working: build a baseline, measure it on real test cases, then improve one thing at a time and explain why.
 
----
+Open to: remote jobs, collaborations, volunteer work and pilot projects in LLM applications.
+Contact: DM me on LinkedIn or email bushrasaleem1020@gmail.com.
 
-## 🚀 Projects
+Currently building
 
-### 🎙️ TrueTone — Bilingual Audio Forgery Detection
-End-to-end deep learning system to detect AI-generated audio in **Urdu and English**.
-- Manually curated 1,530+ file Urdu dataset
-- Full preprocessing pipeline + 7-type augmentation (10,700+ files generated)
-- 34 audio features extracted per file
-- TFLite model deployed to production
+Document Q&A app (RAG): answers questions from research papers on audio deepfake detection. I score it on a fixed set of test questions, then improve it and show the before and after numbers.
 
-**🔴 Live Demo (Urdu):** [bushrasaleem491-truetone-urdu.hf.space](https://bushrasaleem491-truetone-urdu.hf.space)
+Status: in progress. Results planned by Dec 8, 2026.
+Projects
+AutoFormFill-AI: Google Forms automation
 
-[View Repo](https://github.com/Bushra-491/True-Tone-Urdu-Model)
+Python tool that reads applicant data from a CSV and fills multiple Google Forms automatically.
 
----
+Matches form questions to CSV columns even when the wording differs (fuzzy matching)
+Saves what it learns to JSON files and reuses it on the next run
+Handles text fields, dropdowns, radio buttons and checkboxes
+Fills several forms for several applicants in one run
+Asks you to choose when it is not sure, then remembers your choice
+Rule-based. It does not use an LLM.
 
-### 🤖 AutoFormFill-AI — Form Filling Agent
-Python automation agent that fills multiple Google Forms from a CSV file automatically.
-- Fuzzy field matching across different form wordings
-- Persistent JSON mappings — learns and remembers
-- Handles text fields, dropdowns, radio buttons, checkboxes
-- Multi-form, multi-applicant bulk processing
-- Auto-submit with interactive fallback
+View repo
 
-[View Repo](https://github.com/Bushra-491/AutoFormFill-AI)
+TrueTone: Audio forgery detection (paused)
 
----
+Deep learning system that classifies audio as Original, AI Generated or Combined. Built as my Final Year Project.
 
-## 🛠️ Tech Stack
+Collected a 1,530+ file Urdu dataset by hand
+Built the preprocessing and augmentation pipeline (10,700+ files, 7 techniques)
+Extracted 34 audio features per file and trained a neural network
+Deployed a TensorFlow Lite model on Hugging Face Spaces
+It worked well on new audio in 2025, then stopped working in 2026. I found mistakes in my own data and code, and I also found research on the arms race between voice generation and detection. I paused the project to focus on LLM apps.
+The README has the full story, including what I got wrong.
 
-**Languages:** Python
+View repo · Live demo (older model, may fail on newer audio)
 
-**ML/AI:** TensorFlow, scikit-learn, librosa, numpy, pandas
-
-**Automation:** Selenium, rapidfuzz, pydub
-
-**Deployment:** Hugging Face Spaces, TFLite
-
-**Tools:** Git, Gradio, LangChain, ChromaDB
-
----
-
-## 📊 Currently
-
-- 🔭 Building and deploying AI and automation projects
-- 🌱 Deepening independent Python skills
-- 👀 Open to junior Python/AI developer roles
-
----
-
-## 📫 Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Bushra%20Saleem-blue)](https://www.linkedin.com/in/bushra-saleem-89ab03371/)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-BushraSaleem491-yellow)](https://huggingface.co/BushraSaleem491)
-
+Tech stack
+Languages: Python
+ML and audio: TensorFlow, TensorFlow Lite, scikit-learn, librosa, NumPy, pandas, pydub
+Automation: Selenium, rapidfuzz
+Deployment: Hugging Face Spaces, Gradio
+Tools: Git, GitHub
+Learning now: LLM applications, RAG, embeddings
+Certification
+AWS Data Analytics (Coursera, January 2025)
+Find me
+LinkedIn: https://www.linkedin.com/in/bushra-saleem-89ab03371/
+Hugging Face: https://huggingface.co/BushraSaleem491
