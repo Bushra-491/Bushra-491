@@ -33,7 +33,7 @@ Answers questions from research papers on audio deepfake detection. I score it o
 
 - 🚧 Status: in progress
 - 🎯 Results planned by Dec 8, 2026
-- 🔗 Repo: (https://github.com/Bushra-491/AutoFormFill-AI)
+- 🔗 Repo: (https://github.com/Bushra-491/RAG-App)
 
 ---
 
